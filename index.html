@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohan's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="shortcut icon" type="image/jpg" href="./img/favicon.ico"/>
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                   
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Mohankumar N</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+          <img src="img/mm.png" class="intro__img">
+        </section>
+        
+ <!-- My Work -->
+ <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work</h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+    
+    <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="https://github.com/mohanhbk/emiCalculator" class="portfolio__item">
+            <img src="img/portfolio-01.jpg" alt="EMI Calculator" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 02 -->
+        <a href="https://codepen.io/mohanhbk/pen/bGpxyNv" class="portfolio__item">
+            <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 03 -->
+        <a href="https://codepen.io/mohanhbk/pen/vYGBQGK" class="portfolio__item">
+            <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        
+    </div>
+</section>
+
+
+
+
+<!-- About me -->
+
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Frontend web developer based out of India</p>
+           
+           <div class="about-me__body">
+               <p>Hey, my name is Mohan kumar. I am a web developer currently working in Caterpillar India-Randstad. I develop frontend part of Human machine interface softwares, which are widely used in Solar Turbines.</p>
+               <p>I have a diverse set of skills ranging from HTML + CSS + javascript and also test automation of web user interfaces using python + Selenium. A self-starter with a willingness to learn and adapt new technologies.</p>
+           </div>
+           
+           <img src="img/Mohan.jpg" alt="" class="about-me__img">
+        </section>
+        
+       
+        
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <!-- replace with your own email address -->
+            <a href="mailto:nmohankumar29@gmail.com;mohannithi29@gmail.com" class="footer__link">
+                <i class="fa fa-envelope"></i> Mail me</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/mohanhbk">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/mohannithi">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/happaada?s=08">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/mohanhbk/">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
